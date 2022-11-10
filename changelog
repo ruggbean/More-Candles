@@ -1,0 +1,25 @@
+Contributor Credits
+- l33tmaan - collaborated on creating hardened lard as a recipe for Expanded Foods; stellar assistance with discussing potential bugs, ironing out kinks, and patch writing
+
+
+Special Thanks
+- LOVEINJECTION - dropping the suggestion to add animal fat candles, which inspired collaboration with l33tmaan
+
+- Anego Studios - candle asset (modicon)
+
+
+Changelog
+1.0.2 - Added new Block of Beeswax and Block of Soywax assets and candle recipes
+
+Added liquid wax, which is created in saucepan (Expanded Foods) and dries into Block of Beeswax
+Removed beeswax candle recipe; replaced with Block of Beeswax candle recipe
+
+1.0.1 - Added compatibility with A Culinary Artillery and Expanded Foods
+
+Replaced beeswax candle recipe to add flax fibers as a wick
+Removed fat candle recipe, which conflicted with ACA and EF
+Added lard candle recipe to add hardened lard as a candle ingredient instead of fat; added flax fibers as a wick
+Patched original beeswax recipe out
+
+
+1.0.0 - Added fat candle recipe in conjunction to the beeswax candle recipe
