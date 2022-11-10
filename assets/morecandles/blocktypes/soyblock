@@ -5,10 +5,9 @@
 	creativeinventory: { "general": ["*"], "items": ["*"], "morecandles": ["*"] },
 	attributes: {
 		"inBowlShape": { "base": "game:block/food/meal/liquid" },
-        	nutritionProps: { satiety: 50, foodcategory: "NoNutrition" },
 		waterTightContainerProps: {
 			itemsPerLitre: 10,
-			texture: { base: "morecandles:textures/item/resource/soyblock" },
+			texture: { base: "morecandles:block/soyblock" },
 			allowSpill: true,
 			whenSpilled: {
 				action: "DropContents",
