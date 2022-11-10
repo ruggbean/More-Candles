@@ -1,0 +1,10 @@
+{
+  "type": "content",
+  "modid": "morecandles",
+  "name": "More Candles",
+  "description": "Process and refine beeswax, soy, and fat to make candles",
+  "authors": ["ruggbean/Teppich"],
+  "version": "1.0.2",
+  "contributors": ["l33tmaan"],
+  "dependencies": {"aculinaryartillery": "1.0.0", "expandedfoods": "1.6.2"},
+}
