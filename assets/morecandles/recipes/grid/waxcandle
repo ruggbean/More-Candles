@@ -1,0 +1,12 @@
+[
+	{
+		ingredientPattern: "T,B,B",
+		ingredients: {
+			"T": { type: "item", code: "game:flaxfibers" },
+			"B": { type: "block", code: "morecandles:waxblock", quantity: 5 },
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "morecandles:waxcandle" }
+	},
+]
