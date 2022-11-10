@@ -1,0 +1,31 @@
+{
+	Ingredients: [
+		{
+			type: "item",
+			code: "expandedfoods:foodoilportion-soy",
+			quantity: 100
+		},
+		{
+			type: "item",
+			code: "game:pressedmash-soybean",
+			quantity: 1
+		},
+		{
+			type: "item",
+			code: "waterportion",
+			quantity: 100
+		}
+	],
+	Simmering: {
+		meltingPoint: 140,
+		meltingDuration: 110,
+		smeltedRatio: 1,
+		smeltingType: "bake",
+		smeltedStack: {
+			type: "item",
+			code: "morecandles:soywax",
+			"quantity":  10
+		},
+		requiresContainer: false
+	}
+}
