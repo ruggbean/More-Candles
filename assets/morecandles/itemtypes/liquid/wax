@@ -10,7 +10,7 @@
         waterTightContainerProps: {
             containable: true,
             itemsPerLitre: 100,
-            texture: { base: "morecandles:textures/block/liquid/wax" },
+            texture: { base: "morecandles:block/liquid/wax" },
             allowSpill: true,
             whenSpilled: { 
                 action: "DropContents",
@@ -19,7 +19,7 @@
         }
     },
     shape: { base: "game:item/liquid" },
-    texture: { base: "morecandles:textures/block/liquid/wax" },
+    texture: { base: "morecandles:block/liquid/wax" },
 	creativeinventoryStacks: [ { tabs: ["general", "liquids", "morecandles"], stacks: [ { type: "block", code: "game:woodbucket", attributes: { ucontents: [ { type:"item", code: "morecandles:wax", makefull: true } ] } } ] } ],
     maxstacksize: 5000,
     materialDensity: 200,
