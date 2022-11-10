@@ -1,0 +1,12 @@
+[
+	{
+		ingredientPattern: "T,S,S",
+		ingredients: {
+			"T": { type: "item", code: "game:flaxfibers" },
+			"S": { type: "block", code: "morecandles:soyblock", quantity: 5 },
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "morecandles:soycandle" }
+	},
+]
