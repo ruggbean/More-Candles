@@ -1,0 +1,17 @@
+{
+    "item-wax": "Liquid Beeswax",
+    "incontainer-item-wax": "Liquid Beeswax",
+    "game:incontainer-item-wax": "Liquid Beeswax",
+    "game:recipeingredient-item-wax": "Liquid Beeswax",
+    "morecandles:recipeingredient-item-wax-insturmentalcase": "Liquid Beeswax",
+    "itemdesc-wax": "The melted remnants of beeswax.",
+
+    "block-waxblock": "Block of Beeswax",
+    "incontainer-block-waxblock": "Block of Beeswax",
+    "game:incontainer-block-waxblock": "Block of Beeswax",
+    "game:recipeingredient-block-waxblock": "Block of Beeswax",
+    "morecandles:recipeingredient-block-waxblock-insturmentalcase": "Block of Beeswax",
+    "blockdesc-waxblock": "Solidified beeswax, ready to be formed into candles.",
+
+    "game:tabname-morecandles": "More Candles",
+}
