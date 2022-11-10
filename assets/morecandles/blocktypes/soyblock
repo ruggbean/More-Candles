@@ -1,0 +1,80 @@
+{
+	code: "soyblock",
+	shape: { base: "morecandles:item/soyblock" },
+	texture: { base: "morecandles:block/soyblock" },
+	creativeinventory: { "general": ["*"], "items": ["*"], "morecandles": ["*"] },
+	attributes: {
+		"inBowlShape": { "base": "game:block/food/meal/liquid" },
+        	nutritionProps: { satiety: 50, foodcategory: "NoNutrition" },
+		waterTightContainerProps: {
+			itemsPerLitre: 10,
+			texture: { base: "morecandles:textures/item/resource/soyblock" },
+			allowSpill: true,
+			whenSpilled: {
+				action: "DropContents",
+				stack: { type: "block", code: "morecandles:soyblock" }
+			}
+		},
+		placeSound: "game:block/snow"
+	},
+	"behaviors": [
+		{
+			"name": "GroundStorable",
+			"properties": {
+				"layout": "Stacking",
+				"placeRemoveSound": "game:sounds/block/snow",
+				"stackingModel": "block/soypile",
+				"tessQuantityElements": 1,
+				"stackingCapacity": 32,
+				"transferQuantity": 1,
+				"bulkTransferQuantity": 4,
+				"collisionBox": {
+					"x1": 0,
+					"y1": 0,
+					"z1": 0,
+					"x2": 1,
+					"y2": 0.25,
+					"z2": 1
+				},
+				"cbScaleYByLayer": 0.125,
+			}
+		},
+		{ "name": "Unplaceable" },	
+	],
+	blockmaterial: "other",
+	maxstacksize: 100,
+	combustibleProps: {
+		burnTemperature: 300,
+		burnDuration: 120,
+	},
+    transitionableProps: [{
+        type: "Perish",
+        freshHours: { avg: 13140 },
+        transitionHours: { avg: 336 },
+        transitionedStack: { type: "item", code: "game:rot" },
+		transitionRatio: 0.1
+    }],
+	sounds: {
+		place: "game:block/snow",
+		break: "game:block/snow",
+		hit: "game:block/snow",
+	},
+	guiTransform: {
+		origin: { x: 0.5, y: 0.125, z: 0.5 },
+		scale: 2.65
+	},
+	groundTransform: {
+		scale: 3.25,
+	},
+	fpHandTransform: {
+		translation: { x: 0, y: 0.1, z: 0.5 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 2
+	},
+	tpHandTransform: {
+		translation: { x: -0.66, y: 0, z: -0.51 },
+		rotation: { x: -77, y: 59, z: -1 },
+		origin: { x: 0.5, y: 0, z: 0.5 },
+		scale: 0.73
+	}
+}
