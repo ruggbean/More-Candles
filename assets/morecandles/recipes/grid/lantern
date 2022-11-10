@@ -1,0 +1,373 @@
+[
+	{
+		ingredientPattern: "QCQ	_P_",
+		ingredients: {
+			"P": { type: "item", code: "game:metalplate-*", allowedVariants: ["copper", "brass", "blackbronze", "bismuth", "tinbronze", "bismuthbronze", "iron", "molybdochalkos", "silver", "gold", "meteoriciron", "steel" ], name: "material" },
+			"Q": { type: "item", code: "game:clearquartz" },
+			"C": { type: "item", code: "game:candle" }
+		},
+		width: 3,
+		height: 2,
+		output: { 
+			type: "block", 
+			code: "lantern-up",
+			attributes: {
+				material: "{material}",
+				lining: "plain",
+				glass: "quartz"
+			}
+		}
+	},
+	
+	{
+		ingredientPattern: "QCQ	_PL",
+		ingredients: {
+			"P": { type: "item", code: "game:metalplate-*", allowedVariants: ["copper", "brass", "blackbronze", "bismuth", "tinbronze", "bismuthbronze", "iron", "molybdochalkos", "silver", "gold", "meteoriciron", "steel" ], name: "material" },
+			"L": { type: "item", code: "game:metalplate-gold" },
+			"Q": { type: "item", code: "game:clearquartz" },
+			"C": { type: "item", code: "game:candle" }
+		},
+		width: 3,
+		height: 2,
+		output: { 
+			type: "block", 
+			code: "lantern-up",
+			attributes: {
+				material: "{material}",
+				lining: "gold",
+				glass: "quartz"
+			}
+		}
+	},
+	
+	{
+		ingredientPattern: "QCQ	_PL",
+		ingredients: {
+			"P": { type: "item", code: "game:metalplate-*", allowedVariants: ["copper", "brass", "blackbronze", "bismuth", "tinbronze", "bismuthbronze", "iron", "molybdochalkos", "gold", "silver", "meteoriciron", "steel" ], name: "material" },
+			"L": { type: "item", code: "game:metalplate-silver" },
+			"Q": { type: "item", code: "game:clearquartz" },
+			"C": { type: "item", code: "game:candle" }
+		},
+		width: 3,
+		height: 2,
+		output: { 
+			type: "block", 
+			code: "lantern-up",
+			attributes: {
+				material: "{material}",
+				lining: "silver",
+				glass: "quartz"
+			}
+		}
+	},
+	
+	{
+		ingredientPattern: "QCQ	_P_",
+		ingredients: {
+			"P": { type: "item", code: "game:metalplate-*", allowedVariants: ["copper", "brass", "blackbronze", "bismuth", "tinbronze", "bismuthbronze", "iron", "molybdochalkos", "silver", "gold", "meteoriciron", "steel" ], name: "material" },
+			"Q": { type: "block", code: "game:glassslab-plain-down-free" },
+			"C": { type: "item", code: "game:candle" }
+		},
+		width: 3,
+		height: 2,
+		output: { 
+			type: "block", 
+			code: "lantern-up",
+			attributes: {
+				material: "{material}",
+				lining: "plain",
+				glass: "plain"
+			}
+		}
+	},
+	
+	{
+		ingredientPattern: "QCQ	_PL",
+		ingredients: {
+			"P": { type: "item", code: "game:metalplate-*", allowedVariants: ["copper", "brass", "blackbronze", "bismuth", "tinbronze", "bismuthbronze", "iron", "molybdochalkos", "silver", "gold", "meteoriciron", "steel" ], name: "material" },
+			"L": { type: "item", code: "game:metalplate-gold" },
+			"Q": { type: "block", code: "game:glassslab-plain-down-free" },
+			"C": { type: "item", code: "game:candle" }
+		},
+		width: 3,
+		height: 2,
+		output: { 
+			type: "block", 
+			code: "lantern-up",
+			attributes: {
+				material: "{material}",
+				lining: "gold",
+				glass: "plain"
+			}
+		}
+	},
+	
+	{
+		ingredientPattern: "QCQ	_PL",
+		ingredients: {
+			"P": { type: "item", code: "game:metalplate-*", allowedVariants: ["copper", "brass", "blackbronze", "bismuth", "tinbronze", "bismuthbronze", "iron", "molybdochalkos", "gold", "silver", "meteoriciron", "steel" ], name: "material" },
+			"L": { type: "item", code: "game:metalplate-silver" },
+			"Q": { type: "block", code: "game:glassslab-plain-down-free" },
+			"C": { type: "item", code: "game:candle" }
+		},
+		width: 3,
+		height: 2,
+		output: { 
+			type: "block", 
+			code: "lantern-up",
+			attributes: {
+				material: "{material}",
+				lining: "silver",
+				glass: "plain"
+			}
+		}
+	},
+
+	{
+		ingredientPattern: "QBQ	_P_",
+		ingredients: {
+			"P": { type: "item", code: "game:metalplate-*", allowedVariants: ["copper", "brass", "blackbronze", "bismuth", "tinbronze", "bismuthbronze", "iron", "molybdochalkos", "silver", "gold", "meteoriciron", "steel" ], name: "material" },
+			"Q": { type: "item", code: "game:clearquartz" },
+			"B": { type: "item", code: "morecandles:waxcandle" }
+		},
+		width: 3,
+		height: 2,
+		output: { 
+			type: "block", 
+			code: "lantern-up",
+			attributes: {
+				material: "{material}",
+				lining: "plain",
+				glass: "quartz"
+			}
+		}
+	},
+	
+	{
+		ingredientPattern: "QBQ	_PL",
+		ingredients: {
+			"P": { type: "item", code: "game:metalplate-*", allowedVariants: ["copper", "brass", "blackbronze", "bismuth", "tinbronze", "bismuthbronze", "iron", "molybdochalkos", "silver", "gold", "meteoriciron", "steel" ], name: "material" },
+			"L": { type: "item", code: "game:metalplate-gold" },
+			"Q": { type: "item", code: "game:clearquartz" },
+			"B": { type: "item", code: "morecandles:waxcandle" }
+		},
+		width: 3,
+		height: 2,
+		output: { 
+			type: "block", 
+			code: "lantern-up",
+			attributes: {
+				material: "{material}",
+				lining: "gold",
+				glass: "quartz"
+			}
+		}
+	},
+	
+	{
+		ingredientPattern: "QBQ	_PL",
+		ingredients: {
+			"P": { type: "item", code: "game:metalplate-*", allowedVariants: ["copper", "brass", "blackbronze", "bismuth", "tinbronze", "bismuthbronze", "iron", "molybdochalkos", "gold", "silver", "meteoriciron", "steel" ], name: "material" },
+			"L": { type: "item", code: "game:metalplate-silver" },
+			"Q": { type: "item", code: "game:clearquartz" },
+			"B": { type: "item", code: "morecandles:waxcandle" }
+		},
+		width: 3,
+		height: 2,
+		output: { 
+			type: "block", 
+			code: "lantern-up",
+			attributes: {
+				material: "{material}",
+				lining: "silver",
+				glass: "quartz"
+			}
+		}
+	},
+	
+	{
+		ingredientPattern: "QBQ	_P_",
+		ingredients: {
+			"P": { type: "item", code: "game:metalplate-*", allowedVariants: ["copper", "brass", "blackbronze", "bismuth", "tinbronze", "bismuthbronze", "iron", "molybdochalkos", "silver", "gold", "meteoriciron", "steel" ], name: "material" },
+			"Q": { type: "block", code: "game:glassslab-plain-down-free" },
+			"B": { type: "item", code: "morecandles:waxcandle" }
+		},
+		width: 3,
+		height: 2,
+		output: { 
+			type: "block", 
+			code: "lantern-up",
+			attributes: {
+				material: "{material}",
+				lining: "plain",
+				glass: "plain"
+			}
+		}
+	},
+	
+	{
+		ingredientPattern: "QBQ	_PL",
+		ingredients: {
+			"P": { type: "item", code: "game:metalplate-*", allowedVariants: ["copper", "brass", "blackbronze", "bismuth", "tinbronze", "bismuthbronze", "iron", "molybdochalkos", "silver", "gold", "meteoriciron", "steel" ], name: "material" },
+			"L": { type: "item", code: "game:metalplate-gold" },
+			"Q": { type: "block", code: "game:glassslab-plain-down-free" },
+			"B": { type: "item", code: "morecandles:waxcandle" }
+		},
+		width: 3,
+		height: 2,
+		output: { 
+			type: "block", 
+			code: "lantern-up",
+			attributes: {
+				material: "{material}",
+				lining: "gold",
+				glass: "plain"
+			}
+		}
+	},
+	
+	{
+		ingredientPattern: "QBQ	_PL",
+		ingredients: {
+			"P": { type: "item", code: "game:metalplate-*", allowedVariants: ["copper", "brass", "blackbronze", "bismuth", "tinbronze", "bismuthbronze", "iron", "molybdochalkos", "gold", "silver", "meteoriciron", "steel" ], name: "material" },
+			"L": { type: "item", code: "game:metalplate-silver" },
+			"Q": { type: "block", code: "game:glassslab-plain-down-free" },
+			"B": { type: "item", code: "morecandles:waxcandle" }
+		},
+		width: 3,
+		height: 2,
+		output: { 
+			type: "block", 
+			code: "lantern-up",
+			attributes: {
+				material: "{material}",
+				lining: "silver",
+				glass: "plain"
+			}
+		}
+	},
+
+	{
+		ingredientPattern: "QSQ	_P_",
+		ingredients: {
+			"P": { type: "item", code: "game:metalplate-*", allowedVariants: ["copper", "brass", "blackbronze", "bismuth", "tinbronze", "bismuthbronze", "iron", "molybdochalkos", "silver", "gold", "meteoriciron", "steel" ], name: "material" },
+			"Q": { type: "item", code: "game:clearquartz" },
+			"S": { type: "item", code: "morecandles:soycandle" }
+		},
+		width: 3,
+		height: 2,
+		output: { 
+			type: "block", 
+			code: "lantern-up",
+			attributes: {
+				material: "{material}",
+				lining: "plain",
+				glass: "quartz"
+			}
+		}
+	},
+	
+	{
+		ingredientPattern: "QSQ	_PL",
+		ingredients: {
+			"P": { type: "item", code: "game:metalplate-*", allowedVariants: ["copper", "brass", "blackbronze", "bismuth", "tinbronze", "bismuthbronze", "iron", "molybdochalkos", "silver", "gold", "meteoriciron", "steel" ], name: "material" },
+			"L": { type: "item", code: "game:metalplate-gold" },
+			"Q": { type: "item", code: "game:clearquartz" },
+			"S": { type: "item", code: "morecandles:soycandle" }
+		},
+		width: 3,
+		height: 2,
+		output: { 
+			type: "block", 
+			code: "lantern-up",
+			attributes: {
+				material: "{material}",
+				lining: "gold",
+				glass: "quartz"
+			}
+		}
+	},
+	
+	{
+		ingredientPattern: "QSQ	_PL",
+		ingredients: {
+			"P": { type: "item", code: "game:metalplate-*", allowedVariants: ["copper", "brass", "blackbronze", "bismuth", "tinbronze", "bismuthbronze", "iron", "molybdochalkos", "gold", "silver", "meteoriciron", "steel" ], name: "material" },
+			"L": { type: "item", code: "game:metalplate-silver" },
+			"Q": { type: "item", code: "game:clearquartz" },
+			"S": { type: "item", code: "morecandles:soycandle" }
+		},
+		width: 3,
+		height: 2,
+		output: { 
+			type: "block", 
+			code: "lantern-up",
+			attributes: {
+				material: "{material}",
+				lining: "silver",
+				glass: "quartz"
+			}
+		}
+	},
+	
+	{
+		ingredientPattern: "QSQ	_P_",
+		ingredients: {
+			"P": { type: "item", code: "game:metalplate-*", allowedVariants: ["copper", "brass", "blackbronze", "bismuth", "tinbronze", "bismuthbronze", "iron", "molybdochalkos", "silver", "gold", "meteoriciron", "steel" ], name: "material" },
+			"Q": { type: "block", code: "game:glassslab-plain-down-free" },
+			"S": { type: "item", code: "morecandles:soycandle" }
+		},
+		width: 3,
+		height: 2,
+		output: { 
+			type: "block", 
+			code: "lantern-up",
+			attributes: {
+				material: "{material}",
+				lining: "plain",
+				glass: "plain"
+			}
+		}
+	},
+	
+	{
+		ingredientPattern: "QSQ	_PL",
+		ingredients: {
+			"P": { type: "item", code: "game:metalplate-*", allowedVariants: ["copper", "brass", "blackbronze", "bismuth", "tinbronze", "bismuthbronze", "iron", "molybdochalkos", "silver", "gold", "meteoriciron", "steel" ], name: "material" },
+			"L": { type: "item", code: "game:metalplate-gold" },
+			"Q": { type: "block", code: "glassslab-plain-down-free" },
+			"S": { type: "item", code: "morecandles:soycandle" }
+		},
+		width: 3,
+		height: 2,
+		output: { 
+			type: "block", 
+			code: "lantern-up",
+			attributes: {
+				material: "{material}",
+				lining: "gold",
+				glass: "plain"
+			}
+		}
+	},
+	
+	{
+		ingredientPattern: "QSQ	_PL",
+		ingredients: {
+			"P": { type: "item", code: "game:metalplate-*", allowedVariants: ["copper", "brass", "blackbronze", "bismuth", "tinbronze", "bismuthbronze", "iron", "molybdochalkos", "gold", "silver", "meteoriciron", "steel" ], name: "material" },
+			"L": { type: "item", code: "game:metalplate-silver" },
+			"Q": { type: "block", code: "game:glassslab-plain-down-free" },
+			"S": { type: "item", code: "morecandles:soycandle" }
+		},
+		width: 3,
+		height: 2,
+		output: { 
+			type: "block", 
+			code: "lantern-up",
+			attributes: {
+				material: "{material}",
+				lining: "silver",
+				glass: "plain"
+			}
+		}
+	}
+]
