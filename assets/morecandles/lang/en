@@ -4,14 +4,31 @@
     "game:incontainer-item-wax": "Liquid Beeswax",
     "game:recipeingredient-item-wax": "Liquid Beeswax",
     "morecandles:recipeingredient-item-wax-insturmentalcase": "Liquid Beeswax",
-    "itemdesc-wax": "The melted remnants of beeswax.",
+    "itemdesc-wax": "The melted remnants of that hive you raided.",
 
-    "block-waxblock": "Block of Beeswax",
-    "incontainer-block-waxblock": "Block of Beeswax",
-    "game:incontainer-block-waxblock": "Block of Beeswax",
-    "game:recipeingredient-block-waxblock": "Block of Beeswax",
-    "morecandles:recipeingredient-block-waxblock-insturmentalcase": "Block of Beeswax",
-    "blockdesc-waxblock": "Solidified beeswax, ready to be formed into candles.",
+    "block-waxblock": "Dried Beeswax",
+    "incontainer-block-waxblock": "Dried Beeswax",
+    "game:incontainer-block-waxblock": "Dried Beeswax",
+    "game:recipeingredient-block-waxblock": "Dried Beeswax",
+    "morecandles:recipeingredient-block-waxblock-insturmentalcase": "Dried Beeswax",
+    "blockdesc-waxblock": "Solidified beeswax, a monument to your crimes against beekind and an excellent candle ingredient.",
+
+    "item-soywax": "Liquid Soywax",
+    "incontainer-item-soywax": "Liquid Soywax",
+    "game:incontainer-item-soywax": "Liquid Soywax",
+    "game:recipeingredient-item-soywax": "Liquid Soywax",
+    "morecandles:recipeingredient-item-soywax-insturmentalcase": "Liquid Soywax",
+    "itemdesc-soywax": "Hydrogenated, saturated, and ready to be dessicated.",
+
+    "block-soyblock": "Dried Soywax",
+    "incontainer-block-soyblock": "Dried Soywax",
+    "game:incontainer-block-soyblock": "Dried Soywax",
+    "game:recipeingredient-block-soyblock": "Dried Soywax",
+    "morecandles:recipeingredient-block-soyblock-insturmentalcase": "Dried Soywax",
+    "blockdesc-soyblock": "Dessicated for all of your candle-based needs.",
+
+    "morecandles:item-waxcandle": "Beeswax Candle",
+    "morecandles:item-soycandle": "Soywax Candle",
 
     "game:tabname-morecandles": "More Candles",
 }
