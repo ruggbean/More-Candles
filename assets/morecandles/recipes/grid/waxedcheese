@@ -1,0 +1,38 @@
+[
+	{
+		ingredientPattern: "BCB",
+		ingredients: {
+			"C": { type: "item", code: "game:rawcheese-salted" },
+			"B": { type: "block", code: "game:bowl-fired" }
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "morecandles:wax" },
+				requiresLitres: 0.25
+			}
+		},		
+		width: 3,
+		height: 1,
+		shapeless: true,
+		output: { type: "item", code: "game:rawcheese-waxed", quantity: 1  }
+	},
+	{
+		ingredientPattern: "BCB",
+		ingredients: {
+			"C": { type: "item", code: "game:rawcheese-salted" },
+			"B": { type: "block", code: "game:bowl-fired" }
+		},
+		attributes: {
+			liquidContainerProps: {
+				requiresContent: { type: "item", code: "morecandles:soywax" },
+				requiresLitres: 0.25
+			}
+		},		
+		width: 3,
+		height: 1,
+		shapeless: true,
+		output: { type: "item", code: "game:rawcheese-waxed", quantity: 1  }
+	},
+]
+
+
