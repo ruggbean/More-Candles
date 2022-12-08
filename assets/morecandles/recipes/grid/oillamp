@@ -1,0 +1,35 @@
+[
+	{
+		ingredientPattern: "T,W,B",
+		ingredients: {
+			"T": { type: "block", code: "game:torch-basic-lit-up" },
+			"W": { type: "block", code: "morecandles:waxblock", quantity: 1 },
+			"B": { type: "block", code: "game:bowl-fired" }
+		},	
+		width: 1,
+		height: 3,
+		output: { type: "block", code: "game:oillamp-up"  }
+	},
+	{
+		ingredientPattern: "T,L,B",
+		ingredients: {
+			"T": { type: "block", code: "game:torch-basic-lit-up" },
+			"L": { type: "block", code: "expandedfoods:hardlard", quantity: 1 },
+			"B": { type: "block", code: "game:bowl-fired" }
+		},	
+		width: 1,
+		height: 3,
+		output: { type: "block", code: "game:oillamp-up"  }
+	},
+	{
+		ingredientPattern: "T,S,B",
+		ingredients: {
+			"T": { type: "block", code: "game:torch-basic-lit-up" },
+			"S": { type: "block", code: "morecandles:soyblock", quantity: 1 },
+			"B": { type: "block", code: "game:bowl-fired" }
+		},		
+		width: 1,
+		height: 3,
+		output: { type: "block", code: "game:oillamp-up"  }
+	},
+]
