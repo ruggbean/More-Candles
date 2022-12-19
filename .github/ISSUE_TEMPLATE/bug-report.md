@@ -1,5 +1,5 @@
 ---
-name: Bug report
+name: Bug Report
 about: Create a report to help us improve
 title: ''
 labels: ''
@@ -7,7 +7,6 @@ assignees: ruggbean
 
 ---
 
-body:
 - type: dropdown
     id: version
     attributes:
