@@ -1,6 +1,8 @@
 ---
 name: Bug Report
 description: Report issues with More Candles here.
+assignees:
+  - ruggbean
 labels:
   - New Issue
 body:
