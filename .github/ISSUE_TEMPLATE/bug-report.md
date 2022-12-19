@@ -7,65 +7,65 @@ assignees: ruggbean
 
 ---
 
-- type: dropdown
-    id: version
+name: Bug Report
+description: File a bug report
+title: "[Bug]: "
+labels: ["bug", "triage"]
+assignees:
+  - ruggbean
+body:
+  - type: markdown
     attributes:
-      label: Mod Version
-      description: What version of More Candles are you reporting?
-      options:
-        - 1.0.0
-        - 1.0.1
-        - 1.0.2
-    validations:
-      required: true
-- type: textarea
-    id: mods
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: input
+    id: contact
     attributes:
-      label: Modded
-      description: Do you have other mods installed? If so, which mods and versions?
-      placeholder: i.e., Expanded Foods 1.6.4, A Culinary Artillery 1.0.10, etc.
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
     validations:
-      required: true
-- type: dropdown
-    id: type
-    attributes:
-      label: SP/MP
-      description: Did you experience this issue in singleplayer or multiplayer?
-      options:
-        - Singleplayer
-        - Multiplayer
-    validations:
-      required: true
-- type: textarea
+      required: false
+  - type: textarea
     id: what-happened
     attributes:
-      label: Description
-      description: Explain the issue you're running into.
-      placeholder: Please be as detailed as necessary for me to understand the problem.
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
     validations:
       required: true
-- type: textarea
-    id: repro
+  - type: dropdown
+    id: version
     attributes:
-      label: How to Reproduce
-      description: Explain how we could reproduce your bug/issue.
-      placeholder: Please be as detailed as necessary for me to understand the problem.
+      label: Version
+      description: What version of our software are you running?
+      options:
+        - 1.0.2 (Default)
+        - 1.0.3 (Edge)
     validations:
-      required: false
-- type: textarea
-    id: screens
+      required: true
+  - type: dropdown
+    id: browsers
     attributes:
-      label: Screenshots
-      description: Attach a screenshot if it helps explain the issue / shows a visual bug.
-      placeholder: Drag and drop pictures here
-    validations:
-      required: false
-- type: textarea
+      label: What browsers are you seeing the problem on?
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
+  - type: textarea
     id: logs
     attributes:
-      label: Logs
-      description: In the game's Logs folder you may be able to find more information inside client-main.txt and server-main.txt. Alternatively, you may use gist.github.com to upload logs, linking them here, if they're too large.
-      placeholder: Paste crash between the triple backticks
-      value: ```Log```
-    validations:
-      required: false
+      label: Relevant log output
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      render: shell
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+      options:
+        - label: I agree to follow this project's Code of Conduct
+          required: true
