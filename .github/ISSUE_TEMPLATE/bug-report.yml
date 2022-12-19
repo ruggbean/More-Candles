@@ -20,15 +20,15 @@ body:
         - 1.0.2
         - 1.0.3
     validations:
-      required: true
+      required: true 
   - type: textarea
-    id: mods
+    id: modded
     attributes:
       label: Modded
       description: Do you have other mods installed? If so, which mods and versions?
       placeholder: i.e., Expanded Foods 1.6.4, A Culinary Artillery 1.0.10, etc.
     validations:
-      required: true
+      required: true 
   - type: dropdown
     id: type
     attributes:
@@ -38,7 +38,7 @@ body:
         - Singleplayer
         - Multiplayer
     validations:
-      required: true
+      required: true 
   - type: textarea
     id: what-happened
     attributes:
@@ -47,7 +47,7 @@ body:
       placeholder: Please be as detailed as necessary for me to understand the problem.
       render: shell
     validations:
-      required: true
+      required: true 
   - type: textarea
     id: repro
     attributes:
@@ -56,7 +56,7 @@ body:
       placeholder: Please be as detailed as necessary for me to understand the problem.
       render: shell
     validations:
-      required: false
+      required: false 
   - type: textarea
     id: screens
     attributes:
@@ -65,7 +65,7 @@ body:
       placeholder: Drag and drop pictures here
       render: shell
     validations:
-      required: false
+      required: false 
   - type: textarea
     id: logs
     attributes:
@@ -74,6 +74,3 @@ body:
       placeholder: Paste crash between the triple backticks
       value: ```Log```
       render: shell
-    validations:
-      required: false
-
