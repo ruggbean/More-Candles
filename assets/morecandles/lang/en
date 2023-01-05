@@ -13,6 +13,88 @@
     "morecandles:recipeingredient-block-waxblock-insturmentalcase": "Dried Beeswax",
     "blockdesc-waxblock": "Solidified beeswax, a monument to your crimes against beekind and an excellent candle ingredient.",
 
+    "morecandles:block-waxblock-black": "Dried Black Beeswax",
+    "incontainer-block-waxblock-black": "Dried Black Beeswax",
+    "game:incontainer-block-waxblock-black": "Dried Black Beeswax",
+    "game:recipeingredient-block-waxblock-black": "Dried Black Beeswax",
+    "morecandles:recipeingredient-block-waxblock-black-insturmentalcase": "Dried Black Beeswax",
+    "blockdesc-waxblock-black": "Solidified beeswax, a monument to your crimes against beekind. Now in black!",
+
+    "morecandles:block-waxblock-blue": "Dried Blue Beeswax",
+    "incontainer-block-waxblock-blue": "Dried Blue Beeswax",
+    "game:incontainer-block-waxblock-blue": "Dried Blue Beeswax",
+    "game:recipeingredient-block-waxblock-blue": "Dried Blue Beeswax",
+    "morecandles:recipeingredient-block-waxblock-blue-insturmentalcase": "Dried Blue Beeswax",
+    "blockdesc-waxblock-blue": "Solidified beeswax, a monument to your crimes against beekind. Now in blue!",
+
+    "morecandles:block-waxblock-gray": "Dried Gray Beeswax",
+    "incontainer-block-waxblock-gray": "Dried Gray Beeswax",
+    "game:incontainer-block-waxblock-gray": "Dried Gray Beeswax",
+    "game:recipeingredient-block-waxblock-gray": "Dried Gray Beeswax",
+    "morecandles:recipeingredient-block-waxblock-gray-insturmentalcase": "Dried Gray Beeswax",
+    "blockdesc-waxblock-gray": "Solidified beeswax, a monument to your crimes against beekind. Now in gray!",
+
+    "morecandles:block-waxblock-green": "Dried Green Beeswax",
+    "incontainer-block-waxblock-green": "Dried Green Beeswax",
+    "game:incontainer-block-waxblock-green": "Dried Green Beeswax",
+    "game:recipeingredient-block-waxblock-green": "Dried Green Beeswax",
+    "morecandles:recipeingredient-block-waxblock-green-insturmentalcase": "Dried Green Beeswax",
+    "blockdesc-waxblock-green": "Solidified beeswax, a monument to your crimes against beekind. Now in green!",
+
+    "morecandles:block-waxblock-orange": "Dried Orange Beeswax",
+    "incontainer-block-waxblock-orange": "Dried Orange Beeswax",
+    "game:incontainer-block-waxblock-orange": "Dried Orange Beeswax",
+    "game:recipeingredient-block-waxblock-orange": "Dried Orange Beeswax",
+    "morecandles:recipeingredient-block-waxblock-orange-insturmentalcase": "Dried Orange Beeswax",
+    "blockdesc-waxblock-orange": "Solidified beeswax, a monument to your crimes against beekind. Now in orange!",
+
+    "morecandles:block-waxblock-pink": "Dried Pink Beeswax",
+    "incontainer-block-waxblock-pink": "Dried Pink Beeswax",
+    "game:incontainer-block-waxblock-pink": "Dried Pink Beeswax",
+    "game:recipeingredient-block-waxblock-pink": "Dried Pink Beeswax",
+    "morecandles:recipeingredient-block-waxblock-pink-insturmentalcase": "Dried Pink Beeswax",
+    "blockdesc-waxblock-pink": "Solidified beeswax, a monument to your crimes against beekind. Now in pink!",
+
+    "morecandles:block-waxblock-purple": "Dried Purple Beeswax",
+    "incontainer-block-waxblock-purple": "Dried Purple Beeswax",
+    "game:incontainer-block-waxblock-purple": "Dried Purple Beeswax",
+    "game:recipeingredient-block-waxblock-purple": "Dried Purple Beeswax",
+    "morecandles:recipeingredient-block-waxblock-purple-insturmentalcase": "Dried Purple Beeswax",
+    "blockdesc-waxblock-purple": "Solidified beeswax, a monument to your crimes against beekind. Now in purple!",
+
+    "morecandles:block-waxblock-red": "Dried Red Beeswax",
+    "incontainer-block-waxblock-red": "Dried Red Beeswax",
+    "game:incontainer-block-waxblock-red": "Dried Red Beeswax",
+    "game:recipeingredient-block-waxblock-red": "Dried Red Beeswax",
+    "morecandles:recipeingredient-block-waxblock-red-insturmentalcase": "Dried Red Beeswax",
+    "blockdesc-waxblock-red": "Solidified beeswax, a monument to your crimes against beekind. Now in red!",
+
+    "morecandles:block-waxblock-white": "Dried White Beeswax",
+    "incontainer-block-waxblock-white": "Dried White Beeswax",
+    "game:incontainer-block-waxblock-white": "Dried White Beeswax",
+    "game:recipeingredient-block-waxblock-white": "Dried White Beeswax",
+    "morecandles:recipeingredient-block-waxblock-white-insturmentalcase": "Dried White Beeswax",
+    "blockdesc-waxblock-white": "Solidified beeswax, a monument to your crimes against beekind. Now in white!",
+
+    "morecandles:block-waxblock-yellow": "Dried Yellow Beeswax",
+    "incontainer-block-waxblock-yellow": "Dried Yellow Beeswax",
+    "game:incontainer-block-waxblock-yellow": "Dried Yellow Beeswax",
+    "game:recipeingredient-block-waxblock-yellow": "Dried Yellow Beeswax",
+    "morecandles:recipeingredient-block-waxblock-yellow-insturmentalcase": "Dried Yellow Beeswax",
+    "blockdesc-waxblock-yellow": "Solidified beeswax, a monument to your crimes against beekind. Now in yellow!",
+
+    "morecandles:item-waxcandle-plain": "Beeswax Candle",
+    "morecandles:item-waxcandle-black": "Black Beeswax Candle",
+    "morecandles:item-waxcandle-blue": "Blue Beeswax Candle",
+    "morecandles:item-waxcandle-gray": "Gray Beeswax Candle",
+    "morecandles:item-waxcandle-green": "Green Beeswax Candle",
+    "morecandles:item-waxcandle-orange": "Orange Beeswax Candle",
+    "morecandles:item-waxcandle-pink": "Pink Beeswax Candle",
+    "morecandles:item-waxcandle-purple": "Purple Beeswax Candle",
+    "morecandles:item-waxcandle-red": "Red Beeswax Candle",
+    "morecandles:item-waxcandle-white": "White Beeswax Candle",
+    "morecandles:item-waxcandle-yellow": "Yellow Beeswax Candle",
+
     "item-soywax": "Liquid Soywax",
     "incontainer-item-soywax": "Liquid Soywax",
     "game:incontainer-item-soywax": "Liquid Soywax",
@@ -27,13 +109,16 @@
     "morecandles:recipeingredient-block-soyblock-insturmentalcase": "Dried Soywax",
     "blockdesc-soyblock": "Dessicated soywax, for the start of your candle empire.",
 
-    "morecandles:item-waxcandle": "Beeswax Candle",
     "morecandles:item-soycandle": "Soywax Candle",
+
     "game:item-candle": "Lard Candle",
 
     "morecandles:block-waxbunchocandles-*": "Bunch'O'Beeswax Candles",
     "morecandles:block-soybunchocandles-*": "Bunch'O'Soywax Candles",
     "game:block-bunchocandles-*": "Bunch'O'Lard Candles",
+
+    "morecandles:block-chandelierwaxcandle-candle*": "Chandelier",
+    "morecandles:block-chandeliersoycandle-candle*": "Chandelier",
 
     "game:tabname-morecandles": "More Candles",
 
@@ -41,5 +126,5 @@
     "game:craftinginfo-cheese-text": "<strong>Cheese Making</strong><br>Making cheese is a lengthy but rewarding process, that can be broken down into four steps:<br><br><strong>Step 1:</strong> Fill a barrel with either 25 or 50 liters of milk, and add pickled vegetables of any sort. Seal the barrel, and in time the milk will curdle.<br><br><strong>Step 2:</strong> Add salt to the curdled milk and seal the barrel. In time this will create cottage cheese (You can use a bowl to eat the cottage cheese).<br><br><strong>Step 3:</strong> Use a piece of linen to remove the cottage cheese from the barrel.  Place the bundle on the ground, and add a stick.  Twist the curd bundle until all the whey is removed. Open the curd bundle, and add 5 salt to the exposed cheese wheel.<br><br><strong>Step 4:</strong> At this point you can either place the salted raw cheese wheel on a shelf to cure, or craft it in your grid with a half a liter of liquid beeswax or liquid soywax to turn it into a raw cheese wheel, which will last longer.  Place the salted/waxed cheese wheel on a shelf to cure.  After many days, you will have cheddar cheese!<br><br><strong>Blue Cheese:</strong> To make blue cheese, you must store the raw cheese in a cellar with a very low light level, but yet the cellar must have at least one block open to the outside.",
 
     "morecandlesguide-title": "More Candles: Your Candles and You!",
-    "morecandles:morecandlesguide-text": "Documentation for Expanded Foods can be found <a href=\"https://www.vintagestory.at/forums/topic/3783-expanded-foods-123/\">here</a> and updates can be found <a href=\"https://mods.vintagestory.at/show/mod/28#description\">here.</a><br><br>Documentation for A Culinary Artillery can be found <a href=\"https://www.vintagestory.at/forums/topic/10218-a-culinary-artillery-1010/\">here</a> and updates can be found <a href=\"https://mods.vintagestory.at/show/mod/4151#description\">here.</a><br><br>Updates for More Candles can be found can be found <a href=\"https://mods.vintagestory.at/show/mod/morecandles\">here.</a><br><br><strong>Introduction</strong><br><br>More Candles adds a more in-depth candle creation experience that includes the addition of wicks and the purification of fat and wax into components for three different kinds of candles. While not overly laborious, the bulk of this mod's impact comes from the time required to dry the fat and wax into their solidified components.<br><br>More Candles 1.0.1 and above requires collaboration with Expanded Foods and A Culinary Artillery for some of its critical elements, namely the lard and hardened lard, and the saucepan.<br><br>More Candles 1.0.0 does not require mod dependencies and is a much more simplified experience requiring only the base assets of fat and beeswax to make candles.<br><br><strong>Candle Types</strong><br><br><a href=\"handbook://item-candle\">Lard Candles</a> are made of <a href=\"handbook://item-expandedfoods:lard\">lard.</a> Boil 1 piece of fat with 0.2 L of water in the <a href=\"handbook://block-aculinaryartillery:saucepan-burned\">saucepan</a> to create it. Lard takes 240 hours, or 10 days, for its initial dry, and must remain in open storage for 480 hours, or 20 days, in order to become <a href=\"handbook://block-expandedfoods:hardlard\">hardened lard.</a><br><br><a href=\"handbook://item-morecandles:waxcandle\">Beeswax Candles</a> are made of beeswax. Boil 1 piece of beeswax with 1 L of water to create <a href=\"handbook://item-morecandles:wax\">liquid beeswax.</a> Liquid beeswax takes 72 hours, or 3 days, for its initial dry, and must remain in open storage for 240 hours, or 10 days, in order to become <a href=\"handbook://block-morecandles:waxblock\">dried beeswax.</a><br><br><a href=\"handbook://item-morecandles:soycandle\">Soywax Candles</a> are made of <a href=\"handbook://item-expandedfoods:foodoilportion-soy\">soybean oil</a> and the dried mash that the oil was extruded from. Boil 1 piece of soybean mash with 1 L of soybean oil and 1 L of water to create <a href=\"handbook://item-morecandles:soywax\">liquid soywax.</a> Liquid soywax takes 72 hours, or 3 days, for its initial dry, and must remain in open storage for 336 hours, or 14 days, in order to become <a href=\"handbook://block-morecandles:soyblock\">dried soywax.</a><br><br>Once the lard, beeswax, and soywax have dried into their respective counterparts, open your grid and attach a piece of flax twine to 1 L of your fat or wax of choice to obtain your candle.<br><br>Of the three materials, hardened lard and dried soywax are perishable and will go bad after 60 days and 18 months respectively if not used.<br><br>Beeswax and soywax are also edible!<br><br>Beeswax is packed full of nutrients and can aid in immune health, energy, heart health, and sleep. Drinking the liquid beeswax provides 150 sat and 1 HP.<br><br>On the other hand, soywax...really isn't food. It's greasy and bland and should not be consumed on a regular basis. Drinking the liquid soywax provides 50 sat. Really not worth the effort of eating, but it's probably good in a real pinch...probably...",
+    "morecandles:morecandlesguide-text": "Documentation for Expanded Foods can be found <a href=\"https://www.vintagestory.at/forums/topic/3783-expanded-foods-123/\">here</a> and updates can be found <a href=\"https://mods.vintagestory.at/show/mod/28#description\">here.</a><br><br>Documentation for A Culinary Artillery can be found <a href=\"https://www.vintagestory.at/forums/topic/10218-a-culinary-artillery-1010/\">here</a> and updates can be found <a href=\"https://mods.vintagestory.at/show/mod/4151#description\">here.</a><br><br>Updates for More Candles can be found can be found <a href=\"https://mods.vintagestory.at/show/mod/morecandles\">here.</a><br><br><strong>Introduction</strong><br><br>More Candles adds a more in-depth candle creation experience that includes the addition of wicks and the purification of fat and wax into components for three different kinds of candles. While not overly laborious, the bulk of this mod's impact comes from the time required to dry the fat and wax into their solidified components.<br><br>More Candles 1.0.1 and above requires collaboration with Expanded Foods and A Culinary Artillery for some of its critical elements, namely the lard, hardened lard, the saucepan, the small cauldron, and the cauldron.<br><br>More Candles 1.0.0 does not require mod dependencies and is a much more simplified experience requiring only the base assets of fat and beeswax to make candles.<br><br><strong>Candle Types</strong><br><br><a href=\"handbook://item-candle\">Lard Candles</a> are made of <a href=\"handbook://item-expandedfoods:lard\">lard.</a> Boil 1 piece of fat with 0.2 L of water in the <a href=\"handbook://block-aculinaryartillery:saucepan-burned\">saucepan</a>, the <a href=\"handbook://block-aculinaryartillery:cauldronmini-copper\">small cauldron</a>, or the <a href=\"handbook://block-aculinaryartillery:cauldron-copper\">cauldron</a> to create it. Lard takes 240 hours, or 10 days, for its initial dry, and must remain in open storage for 480 hours, or 20 days, in order to become <a href=\"handbook://block-expandedfoods:hardlard\">hardened lard.</a><br><br><a href=\"handbook://item-morecandles:waxcandle\">Beeswax Candles</a> are made of beeswax. Boil 1 piece of beeswax with 1 L of water to create <a href=\"handbook://item-morecandles:wax\">liquid beeswax.</a> Liquid beeswax takes 72 hours, or 3 days, for its initial dry, and must remain in open storage for 240 hours, or 10 days, in order to become <a href=\"handbook://block-morecandles:waxblock\">dried beeswax.</a><br><br><a href=\"handbook://item-morecandles:soycandle\">Soywax Candles</a> are made of <a href=\"handbook://item-expandedfoods:foodoilportion-soy\">soybean oil</a> and the dried mash that the oil was extruded from. Boil 1 piece of soybean mash with 1 L of soybean oil and 1 L of water to create <a href=\"handbook://item-morecandles:soywax\">liquid soywax.</a> Liquid soywax takes 72 hours, or 3 days, for its initial dry, and must remain in open storage for 336 hours, or 14 days, in order to become <a href=\"handbook://block-morecandles:soyblock\">dried soywax.</a><br><br>Once the lard, beeswax, and soywax have dried into their respective counterparts, open your grid and attach a piece of flax twine to 0.4 L of your fat or wax of choice to obtain your candle.<br><br>Of the three materials, hardened lard and dried soywax are perishable and will go bad after 60 days and 18 months respectively if not used.<br><br>Beeswax and soywax are also edible!<br><br>Beeswax is packed full of nutrients and can aid in immune health, energy, heart health, and sleep. Drinking the liquid beeswax provides 150 sat and 1 HP.<br><br>On the other hand, soywax...really isn't food. It's greasy and bland and should not be consumed on a regular basis. Drinking the liquid soywax provides 50 sat. Really not worth the effort of eating, but it's probably good in a real pinch...probably...",
 }
