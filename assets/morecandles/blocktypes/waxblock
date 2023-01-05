@@ -1,19 +1,35 @@
 {
 	code: "waxblock",
+	variantgroups: [
+		{ code: "type", states: ["plain", "blue", "red", "yellow", "purple", "green", "orange", "black", "gray", "pink", "white", ] },
+	],
 	shape: { base: "morecandles:item/waxblock" },
-	texture: { base: "morecandles:block/waxblock" },
+	texturesbytype: { 
+		"*-plain": { "waxblock": { "base": "game:item/resource/beeswaxcrate" } },
+		"*-black": { "waxblock": { "base": "morecandles:block/waxblock/black" } },
+		"*-blue": { "waxblock": { "base": "morecandles:block/waxblock/blue" } },
+		"*-gray": { "waxblock": { "base": "morecandles:block/waxblock/gray" } },
+		"*-green": { "waxblock": { "base": "morecandles:block/waxblock/green" } },
+		"*-orange": { "waxblock": { "base": "morecandles:block/waxblock/orange" } },
+		"*-pink": { "waxblock": { "base": "morecandles:block/waxblock/pink" } },
+		"*-purple": { "waxblock": { "base": "morecandles:block/waxblock/purple" } },
+		"*-red": { "waxblock": { "base": "morecandles:block/waxblock/red" } },
+		"*-white": { "waxblock": { "base": "morecandles:block/waxblock/white" } },
+		"*-yellow": { "waxblock": { "base": "morecandles:block/waxblock/yellow" } },
+	},
 	creativeinventory: { "general": ["*"], "items": ["*"], "morecandles": ["*"] },
 	attributes: {
+		displaycaseable: false, 
+		shelvable: false,
 		"inBowlShape": { "base": "game:block/food/meal/liquid" },
-        	nutritionProps: { satiety: 50, foodcategory: "NoNutrition" },
 		waterTightContainerProps: {
 			itemsPerLitre: 10,
-			texture: { base: "morecandles:block/waxblock" },
+			texture: { base: "game:item/resource/beeswaxcrate" },
 			allowSpill: true,
 			whenSpilled: {
 				action: "DropContents",
 				stack: { type: "block", code: "morecandles:waxblock" }
-			}
+}
 		},
 		placeSound: "game:block/snow"
 	},
@@ -50,7 +66,7 @@
 	sounds: {
 		place: "game:block/snow",
 		break: "game:block/snow",
-		hit: "game:block/snow",
+		hit: "game:block/snow",	
 	},
 	guiTransform: {
 		origin: { x: 0.5, y: 0.125, z: 0.5 },
