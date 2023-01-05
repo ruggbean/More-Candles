@@ -1,12 +1,112 @@
 [
 	{
-		ingredientPattern: "T,B,B",
+		ingredientPattern: "T,P,P",
 		ingredients: {
 			"T": { type: "item", code: "game:flaxfibers" },
-			"B": { type: "block", code: "morecandles:waxblock", quantity: 2 },
+			"P": { type: "block", code: "morecandles:waxblock", quantity: 2 },
 		},
 		width: 1,
 		height: 3,
-		output: { type: "item", code: "morecandles:waxcandle" }
+		output: { type: "item", code: "morecandles:waxcandle-plain" }
+	},
+	{
+		ingredientPattern: "T,B,B",
+		ingredients: {
+			"T": { type: "item", code: "game:flaxfibers" },
+			"B": { type: "block", code: "morecandles:waxblock-black", quantity: 2 },
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "morecandles:waxcandle-black" }
+	},
+	{
+		ingredientPattern: "T,L,L",
+		ingredients: {
+			"T": { type: "item", code: "game:flaxfibers" },
+			"L": { type: "block", code: "morecandles:waxblock-blue", quantity: 2 },
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "morecandles:waxcandle-blue" }
+	},
+	{
+		ingredientPattern: "T,G,G",
+		ingredients: {
+			"T": { type: "item", code: "game:flaxfibers" },
+			"G": { type: "block", code: "morecandles:waxblock-gray", quantity: 2 },
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "morecandles:waxcandle-gray" }
+	},
+	{
+		ingredientPattern: "T,H,H",
+		ingredients: {
+			"T": { type: "item", code: "game:flaxfibers" },
+			"H": { type: "block", code: "morecandles:waxblock-green", quantity: 2 },
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "morecandles:waxcandle-green" }
+	},
+	{
+		ingredientPattern: "T,O,O",
+		ingredients: {
+			"T": { type: "item", code: "game:flaxfibers" },
+			"O": { type: "block", code: "morecandles:waxblock-orange", quantity: 2 },
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "morecandles:waxcandle-orange" }
+	},
+	{
+		ingredientPattern: "T,I,I",
+		ingredients: {
+			"T": { type: "item", code: "game:flaxfibers" },
+			"B": { type: "block", code: "morecandles:waxblock-pink", quantity: 2 },
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "morecandles:waxcandle-pink" }
+	},
+	{
+		ingredientPattern: "T,U,U",
+		ingredients: {
+			"T": { type: "item", code: "game:flaxfibers" },
+			"B": { type: "block", code: "morecandles:waxblock-purple", quantity: 2 },
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "morecandles:waxcandle-purple" }
+	},
+	{
+		ingredientPattern: "T,R,R",
+		ingredients: {
+			"T": { type: "item", code: "game:flaxfibers" },
+			"R": { type: "block", code: "morecandles:waxblock-red", quantity: 2 },
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "morecandles:waxcandle-red" }
+	},
+	{
+		ingredientPattern: "T,W,W",
+		ingredients: {
+			"T": { type: "item", code: "game:flaxfibers" },
+			"W": { type: "block", code: "morecandles:waxblock-white", quantity: 2 },
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "morecandles:waxcandle-white" }
+	},
+	{
+		ingredientPattern: "T,Y,Y",
+		ingredients: {
+			"T": { type: "item", code: "game:flaxfibers" },
+			"Y": { type: "block", code: "morecandles:waxblock-yellow", quantity: 2 },
+		},
+		width: 1,
+		height: 3,
+		output: { type: "item", code: "morecandles:waxcandle-yellow" }
 	},
 ]
