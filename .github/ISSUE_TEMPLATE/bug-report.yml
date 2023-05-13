@@ -76,5 +76,3 @@ body:
         gist.github.com to upload logs, linking them here, if they're too large.
       placeholder: Paste crash between two sets of triple backticks
       render: false
-      validations:
-      required: true
